@@ -4,11 +4,268 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>my portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="bg-black text-white mx-auto">
+    <header>
+        <!-- navbar -->
+        <div class="container mx-auto px-4 mt-3 md:mt-[30px] lg:mt-[50px]">
+            <nav class="flex items-center justify-between h-[80px]">
+                <!-- logo -->
+                <div class="md:text-sm logo">
+                    <h1 class="font-bold text-3xl text-white">LOGO</h1>
+                </div>
 
+                <!-- menu + button -->
+                <div class="about flex items-center gap-6">
+                    <ul class="hidden md:flex space-x-6 text-white text-[16px] font-extralight">
+                        <li class="cursor-pointer hover:text-[#E6AA32]">Home</li>
+                        <li class="cursor-pointer hover:text-[#E6AA32]">About me</li>
+                        <li class="cursor-pointer hover:text-[#E6AA32]">Projects</li>
+                        <li class="cursor-pointer hover:text-[#E6AA32]">Testimonials</li>
+                    </ul>
+
+                    <button class="font-semibold text-sm h-[40px] w-[100px] md:w-[120px]
+                bg-[#E6AA32] text-black rounded-full
+                hover:bg-yellow-400 transition">
+                        Download CV
+                    </button>
+                </div>
+            </nav>
+        </div>
+        <!-- navbar end -->
+
+        <!-- hero seksyen -->
+        <section class="mt-[80px]">
+            <div class="container mx-auto px-5">
+
+                <!-- THIS IS THE FLEX PARENT -->
+                <div class="flex items-center justify-between">
+
+                    <!-- LEFT : Text -->
+                    <div class="w-1/2">
+                        <p class="text-[#797C86]">Web Developer</p>
+
+                        <h1 class="font-bold text-6xl">
+                            HI! This is <br>
+                            <span class="text-[#E6AA32]">Md. Masud Rana</span>
+                        </h1>
+
+                        <p class="text-gray-400 max-w-md mt-6">
+                            a web designer with four years of experience, I specialize in creating visually appealing
+                            and user-friendly websites. My expertise includes responsive design, UI/UX principles, and
+                            collaborating with clients to bring their visions to life.
+                        </p>
+
+                        <div class="flex gap-4 mt-6 items-center">
+                            <button class="bg-[#E6AA32] h-[48px] w-[188px] rounded-full text-black">
+                                Let’s Connect
+                            </button>
+                            <p class="text-[#E6E6E6]">View Portfolios →</p>
+                        </div>
+                    </div>
+
+                    <!-- RIGHT : Image -->
+                    <div class="w-[420px] h-[520px] rounded-[40px]
+              bg-[radial-gradient(ellipse_at_center,_#2b2b2b_0%,_#111_40%,_#000_70%)]
+              flex items-center justify-center">
+                        <img src="mypic.png" alt="profile" class="w-[492px] h-[488px]">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- hero seksyen -->
+    <section class="mt-[80px]">
+        <div class="container mx-auto px-5">
+            <div class="w-full text-center space-y-5">
+                <span class="text-[#797C86]">MY SPECIALTLIES</span>
+                <h1 class="font-bold text-6xl">MY SPECIALTLIES</h1>
+                <p class="max-w-3xl mx-auto text-center text-[#797C86]">As a web designer with four years of experience,
+                    I
+                    specialize in
+                    creating
+                    visually
+                    appealing and
+                    user-friendly websites. My expertise includes responsive design.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- mai part -->
+
+    <section class="mt-[50px]">
+        <div class="container mx-auto px-5">
+
+            <!-- GRID -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <!-- CARD -->
+                <div class="h-[293px] w-[283px] mx-auto flex items-center justify-center text-center">
+                    <div class="space-y-4">
+                        <img src="1.png" alt="" class="mx-auto">
+                        <h1 class="text-xl font-bold">Front-End Development</h1>
+                        <p class="text-sm text-gray-400">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint. Velit officia consequat duis enim velit mollit.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- CARD -->
+                <div class="h-[293px] w-[283px] mx-auto flex items-center justify-center text-center">
+                    <div class="space-y-4">
+                        <img src="1.png" alt="" class="mx-auto">
+                        <h1 class="text-xl font-bold">Front-End Development</h1>
+                        <p class="text-sm text-gray-400">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint. Velit officia consequat duis enim velit mollit.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- CARD -->
+                <div class="h-[293px] w-[283px] mx-auto flex items-center justify-center text-center">
+                    <div class="space-y-4">
+                        <img src="1.png" alt="" class="mx-auto">
+                        <h1 class="text-xl font-bold">Front-End Development</h1>
+                        <p class="text-sm text-gray-400">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint. Velit officia consequat duis enim velit mollit.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- CARD -->
+                <div class="h-[293px] w-[283px] mx-auto flex items-center justify-center text-center">
+                    <div class="space-y-4">
+                        <img src="1.png" alt="" class="mx-auto">
+                        <h1 class="text-xl font-bold">Front-End Development</h1>
+                        <p class="text-sm text-gray-400">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint. Velit officia consequat duis enim velit mollit.
+                        </p>
+                    </div>
+                </div>
+
+    </section>
+    <section class="mt-[50px]">
+        <div class="container mx-auto px-5">
+
+            <!-- GRID -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <!-- CARD -->
+                <div class="h-[293px] w-[283px] mx-auto flex items-center justify-center text-center">
+                    <div class="space-y-4">
+                        <img src="1.png" alt="" class="mx-auto">
+                        <h1 class="text-xl font-bold">Front-End Development</h1>
+                        <p class="text-sm text-gray-400">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint. Velit officia consequat duis enim velit mollit.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- CARD -->
+                <div class="h-[293px] w-[283px] mx-auto flex items-center justify-center text-center">
+                    <div class="space-y-4">
+                        <img src="1.png" alt="" class="mx-auto">
+                        <h1 class="text-xl font-bold">Front-End Development</h1>
+                        <p class="text-sm text-gray-400">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint. Velit officia consequat duis enim velit mollit.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- CARD -->
+                <div class="h-[293px] w-[283px] mx-auto flex items-center justify-center text-center">
+                    <div class="space-y-4">
+                        <img src="1.png" alt="" class="mx-auto">
+                        <h1 class="text-xl font-bold">Front-End Development</h1>
+                        <p class="text-sm text-gray-400">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint. Velit officia consequat duis enim velit mollit.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- CARD -->
+                <div class="h-[293px] w-[283px] mx-auto flex items-center justify-center text-center">
+                    <div class="space-y-4">
+                        <img src="1.png" alt="" class="mx-auto">
+                        <h1 class="text-xl font-bold">Front-End Development</h1>
+                        <p class="text-sm text-gray-400">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint. Velit officia consequat duis enim velit mollit.
+                        </p>
+                    </div>
+                </div>
+
+    </section>
+
+    <section class="mt-[50px]">
+        <div class="container mx-auto px-5">
+
+            <!-- GRID -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <!-- CARD -->
+                <div class="h-[293px] w-[283px] mx-auto flex items-center justify-center text-center">
+                    <div class="space-y-4">
+                        <img src="1.png" alt="" class="mx-auto">
+                        <h1 class="text-xl font-bold">Front-End Development</h1>
+                        <p class="text-sm text-gray-400">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint. Velit officia consequat duis enim velit mollit.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- CARD -->
+                <div class="h-[293px] w-[283px] mx-auto flex items-center justify-center text-center">
+                    <div class="space-y-4">
+                        <img src="1.png" alt="" class="mx-auto">
+                        <h1 class="text-xl font-bold">Front-End Development</h1>
+                        <p class="text-sm text-gray-400">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint. Velit officia consequat duis enim velit mollit.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- CARD -->
+                <div class="h-[293px] w-[283px] mx-auto flex items-center justify-center text-center">
+                    <div class="space-y-4">
+                        <img src="1.png" alt="" class="mx-auto">
+                        <h1 class="text-xl font-bold">Front-End Development</h1>
+                        <p class="text-sm text-gray-400">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint. Velit officia consequat duis enim velit mollit.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- CARD -->
+                <div class="h-[293px] w-[283px] mx-auto flex items-center justify-center text-center">
+                    <div class="space-y-4">
+                        <img src="1.png" alt="" class="mx-auto">
+                        <h1 class="text-xl font-bold">Front-End Development</h1>
+                        <p class="text-sm text-gray-400">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint. Velit officia consequat duis enim velit mollit.
+                        </p>
+                    </div>
+                </div>
+
+    </section>
+
+    <!-- mai part end-->
+    <!-- hero seksyen end-->
 </body>
 
 </html>
